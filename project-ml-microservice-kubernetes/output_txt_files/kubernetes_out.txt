@@ -1,1 +1,17 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) marvin@TP-1701-D:~/udacity/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacity-prediction-model" already exists
+NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
+default       app                                1/1     Running   0          20m
+default       udacity-prediction-model           1/1     Running   0          9m54s
+kube-system   coredns-66bff467f8-4mjww           1/1     Running   0          137m
+kube-system   coredns-66bff467f8-54l69           1/1     Running   0          137m
+kube-system   etcd-minikube                      1/1     Running   0          137m
+kube-system   kube-apiserver-minikube            1/1     Running   0          137m
+kube-system   kube-controller-manager-minikube   1/1     Running   0          137m
+kube-system   kube-proxy-nbgll                   1/1     Running   0          137m
+kube-system   kube-scheduler-minikube            1/1     Running   0          137m
+kube-system   storage-provisioner                1/1     Running   0          137m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
